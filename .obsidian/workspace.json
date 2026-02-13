@@ -205,8 +205,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "805b357922e39d80",
+  "active": "b7451d26740a950d",
   "lastOpenFiles": [
+    "README.md~",
+    "tryhackme/Easy/Blue.md",
     "README.md",
     "tryhackme/index.md",
     "scripts",
