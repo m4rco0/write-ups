@@ -15,6 +15,6 @@ Este repositório contém documentações detalhadas (write-ups) sobre a resolu�
 ├── VulnHub/
 └── scripts/          => Scripts autorais criados durante os labs
 ```
-Sites: [[]]
+Sites: 
 
 
