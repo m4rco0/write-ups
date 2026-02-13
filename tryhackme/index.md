@@ -1,3 +1,3 @@
 
 Easy: 
-- [[Blue (thm)]]
+- [Eternalblue](./Easy/Blue.md)
