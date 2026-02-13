@@ -1,0 +1,3 @@
+
+Easy: 
+- [[Blue (thm)]]

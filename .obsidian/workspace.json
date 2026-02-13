@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/Blue (thm).md",
+                "file": "tryhackme/Try Hack me Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blue (thm)"
+              "title": "Try Hack me Index"
             }
           }
         ],
@@ -221,9 +221,19 @@
   },
   "active": "a6fa010e944cfd97",
   "lastOpenFiles": [
+    "README.md",
+    "scripts",
+    "VulnHub",
+    "tryhackme/Hard",
+    "tryhackme/Medium",
+    "tryhackme/Easy",
+    "HackTheBox",
+    "tryhackme/Try Hack me Index.md",
+    "tryhackme/Easy/Blue (thm).md",
+    "tryhackme/Linux",
+    "tryhackme/CTF",
+    "tryhackme/Windows",
     "tryhackme",
-    "tryhackme/Maquinas Windows.md",
-    "tryhackme/Blue (thm).md",
     "imgs/Pasted image 20260213010436.png",
     "imgs/Pasted image 20260213010012.png",
     "imgs/Pasted image 20260213005830.png",
@@ -232,7 +242,6 @@
     "imgs/Pasted image 20260212232409.png",
     "imgs/Pasted image 20260212231538.png",
     "Pasted image 20260212231312.png",
-    "imgs",
     "Bem-vindo.md"
   ]
 }
