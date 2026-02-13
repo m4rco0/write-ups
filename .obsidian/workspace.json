@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/Try Hack me Index.md",
+                "file": "tryhackme/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Try Hack me Index"
+              "title": "index"
             }
           }
         ],
@@ -219,16 +219,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6fa010e944cfd97",
+  "active": "f2c678f3ae86e4b1",
   "lastOpenFiles": [
     "README.md",
+    "tryhackme/index.md",
     "scripts",
     "VulnHub",
     "tryhackme/Hard",
     "tryhackme/Medium",
     "tryhackme/Easy",
     "HackTheBox",
-    "tryhackme/Try Hack me Index.md",
     "tryhackme/Easy/Blue (thm).md",
     "tryhackme/Linux",
     "tryhackme/CTF",
