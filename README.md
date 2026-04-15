@@ -12,6 +12,10 @@ Este repositório contém documentações detalhadas (write-ups) sobre a resolu�
 │   ├── Easy/
 │   ├── Medium/
 │   └── Hard/
+├── picoCTF/
+│   ├── Easy/
+│   ├── Medium/
+│   └── Hard/
 ├── VulnHub/
 └── scripts/          => Scripts autorais criados durante os labs
 ```

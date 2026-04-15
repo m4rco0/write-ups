@@ -15,30 +15,30 @@ e inverter a busca, ao invez de ir para lookup1, você vai para lookup2, e vice 
 ==> Após isso, temos esse código:
 
 ======================================================|
-m4rco0@kaskafta ~/Documents/estudos/ctfs/C3           |                                                                                             
-> $ cat ciphertext | python3 desconvert.py 						|
-#asciiorder 																					|
-#fortychars 																					|
-#selfinput 																						|
-#pythontwo 																						|
- 																											|
-chars = "" 																						|
-from fileinput import input 													|
-for line in input(): 																	|
-    chars += line 																		|
-b = 1 / 1 																						|
- 																											|
-for i in range(len(chars)): 													|
-    if i == b * b * b: 																|
-        print chars[i] #prints 												|
-        b += 1 / 1 																		|
+m4rco0@kaskafta ~/Documents/estudos/ctfs/C3                                                                                         
+> $ cat ciphertext | python3 desconvert.py 
+#asciiorder 							
+#fortychars 														
+#selfinput 																				
+#pythontwo 																						 
+ 																											        
+chars = "" 																						         
+from fileinput import input 					
+for line in input(): 																	  
+    chars += line 														
+b = 1 / 1 																						    
+ 																											        
+for i in range(len(chars)): 								
+    if i == b * b * b: 																
+        print chars[i] #prints 			
+        b += 1 / 1 																
 ======================================================|
 
 Salvando ele em um arquivo .py, por exemplo pythontwo.py, podemos agora adicionar ele na pipeline acima e conseguirmos a flag:
 ========================================================================================================|
 m4rco0@kaskafta ~/Documents/estudos/ctfs/C3                                                             |                                                         
 > $ printf "picoCTF{%s}" $(cat ciphertext| python3 desconvert.py | python3 pythontwo.py | tr -d '\n')   |
-picoCTF{*****} 																																													|
+picoCTF{*****} 																																													                                            |
 ========================================================================================================|
 
 
