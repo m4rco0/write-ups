@@ -1,5 +1,4 @@
-==> 
-O código usa a criptografia baseada nessa função matématica:
+==>  O código usa a criptografia baseada nessa função matématica:
 
 |-----------------------------------|
 |	out += lookup1[(prev - cur) % 40] |
@@ -11,7 +10,7 @@ bastando apenas fazer o processo inverso que é:
 | out += lookuup1[(prev + cur) % 40]  |
 |-------------------------------------|
 
-e inverter a busca, ao invez de ir para lookup1, você vai para lookup2, e vice e versa.
+e inverter a busca, ao invez de ir para lookup1, você vai para lookup2, e vice e versa. O código que eu fiz está em './desconvert.py'
 
 ==> Após isso, temos esse código:
 
