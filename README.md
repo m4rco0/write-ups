@@ -22,4 +22,4 @@ Este repositório contém documentações detalhadas (write-ups) sobre a resolu�
 
 Writetups: 
 - [TryHackMe](./tryhackme/index.md)
-- [picoCTF](./picoCTF/S)
+- [picoCTF](./picoCTF/picoCTF.md)
