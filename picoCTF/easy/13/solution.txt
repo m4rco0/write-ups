@@ -1,0 +1,53 @@
+==> O problema é:
+
+
+Cryptography can be easy, do you know what ROT13 is?
+cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}
+
+==> Oque é ROT13 ?
+
+ROT13 nada mais é do que um algoritmo de rotação aplicado 13 vezes com base em alguma tabela
+ou apenas as letras, vamos fazer usar com uma tabela A-Z e a-z:
+
+|=======================================================================================|
+    lookup1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"                    |
+                                                                                        |
+    // agora vamo precisar rotacionar a tabela lookup1 13 letras para a direita         |
+                                                                                        |
+    lookup2 = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"                    |
+|=======================================================================================|
+
+Agora qeu temos as tableas só precisaremos pegar o indice da lookup1 e pegar o char na lookup2
+Pois a tabela lookup2 já está rotacionado e vai retornar o valor correto da flag
+
+==> utilização do decode.py
+
+====================================================================
+
+m4rco0@kaskafta ~/Documents/estudos/write-ups/picoCTF/easy/13                                                                                                                           [16:03:42]
+> $ python3 decode.py                                                                                                                                                                  [±main ●●●]
+picoCTF{**************}
+
+=======================================================================
+
+
+
+isso foi tudo pessoal
+            .-"""-.
+           '       \
+          |,.  ,-.  |
+          |()L( ()| |
+          |,'  `".| |
+          |.___.',| `
+         .j `--"' `  `.
+        / '        '   \
+       / /          `   `.
+      / /            `    .
+     / /              l   |
+    . ,               |   |
+    ,"`.             .|   |
+ _.'   ``.          | `..-'l
+|       `.`,        |      `.
+|         `.    __.j         )
+|__        |--""___|      ,-'
+   `"--...,+""""   `._,.-' mh

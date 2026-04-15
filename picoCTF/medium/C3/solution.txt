@@ -7,7 +7,7 @@
 bastando apenas fazer o processo inverso que é:
 
 |-------------------------------------|
-| out += lookuup1[(prev + cur) % 40]  |
+| out += lookup2[(prev + cur) % 40]  |
 |-------------------------------------|
 
 e inverter a busca, ao invez de ir para lookup1, você vai para lookup2, e vice e versa. O código que eu fiz está em './desconvert.py'

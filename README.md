@@ -16,5 +16,6 @@ Este repositório contém documentações detalhadas (write-ups) sobre a resolu�
 └── scripts/          => Scripts autorais criados durante os labs
 ```
 
-Sites: [TryHackMe](./tryhackme/index.md)
-x
+Writetups: 
+- [TryHackMe](./tryhackme/index.md)
+- [picoCTF](./picoCTF/S)
